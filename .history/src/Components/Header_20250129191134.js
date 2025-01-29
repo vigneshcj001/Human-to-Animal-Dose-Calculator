@@ -12,7 +12,7 @@ const Header = () => {
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
         {/* Logo */}
         <Link to="/" className="text-blue-600 font-bold text-2xl w-4/12">
-          <img src={H2ALOGO} className="w-52" />{" "}
+          <img src={H2ALOGO} className="w-24" />{" "}
           {/* Reduce logo size by adding a width class */}
         </Link>
         {/* Navigation */}

@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
-import H2ALOGO from "../../images/logo.jpg";
-
+import H2ALOGO from "../images/H2A.png";
 const Header = () => {
   const navItems = [
     { to: "/", label: "Home" },
@@ -11,9 +10,8 @@ const Header = () => {
     <header className="sticky top-0 z-50 bg-white shadow-md">
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
         {/* Logo */}
-        <Link to="/" className="text-blue-600 font-bold text-2xl w-4/12">
-          <img src={H2ALOGO} className="w-52" />{" "}
-          {/* Reduce logo size by adding a width class */}
+        <Link to="/" className="text-blue-600 font-bold text-2xl">
+          <img src={H2ALOGO} />
         </Link>
         {/* Navigation */}
         <nav>
